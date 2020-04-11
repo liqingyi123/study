@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="">
+  <!-- 支持传入正常的swiper属性，渲染数据源render-data字段为必填项，值为数组或json数组。 -->
+  使用我创建的组件进行banner美化渲染
+  <my-swiper render-data="{{lists}}" binditemclick="bannerClick"></my-swiper>
+</view>
